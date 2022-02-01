@@ -3,6 +3,7 @@
 @import "./section1.css";
 @import "./section2.css";
 @import "./section3.css";
+@import "./review.css";
 @import "./footer.css";
 
 @font-face {
@@ -32,7 +33,7 @@ header{
 @media(max-width: 500px){
     header{
         text-align: center;
-        font-size: 1rem;
+        font-size: 1.2rem;
         padding: 20px;
     }
 }

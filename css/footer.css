@@ -112,7 +112,7 @@ footer{
     transition: all 0.3s ease-in-out;
   }
 
-  .credits{
+  footer .credits{
     font-family: 'Sign','Comforter', cursive;
     background: #b39ddb;
     padding: 0px 100px;
@@ -121,9 +121,9 @@ footer{
   }
   
   @media(max-width: 500px){
-      .credits{
+      footer .credits{
           text-align: center;
-          font-size: 1.3rem;
+          font-size: 1rem;
           padding: 20px;
           margin-bottom: 0;
       }
@@ -191,13 +191,4 @@ footer{
     -webkit-tap-highlight-color: transparent;
   }
 
-
-  footer .credits{
-    min-height: 100px;
-    box-sizing: content-box;
-    padding: 20px 0;
-    flex-direction: column;
-    justify-content: center;
-    gap: 20px;
-  }
 }
